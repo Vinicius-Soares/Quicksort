@@ -5,7 +5,7 @@
 //first half reversed, second half sorted
 int main(void)
 {
-    int n = 10;
+    int n = 100000;
     int arr[n];
     for (int i = 0; i < n/2; i++)
         arr[i] = n/2 - i - 1;
