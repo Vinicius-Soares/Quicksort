@@ -5,7 +5,7 @@ extern void quicksort(int list[], int low, int high)
     int pivot, i, j, temp;
     if (low < high)
     {
-        pivot = low;
+        pivot = high ;
         i = low;
         j = high;
         while (i < j) 
