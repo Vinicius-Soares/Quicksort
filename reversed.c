@@ -9,7 +9,7 @@ int main(void)
     clock_t start, end;
     double cpu_time_used;
 
-    int n = 100000;
+    int n = 100;
     int arr[n];
     for (int i = 0; i < n; i++)
         arr[i] = n - i;

@@ -12,7 +12,7 @@ int main(void)
     int arr[n];
 
     for (int i = 0; i < n; i++)
-        arr[i] = i;
+        arr[i] = n - 1;
 
     int* newArr = shuffle(arr, n);
     start = clock();
